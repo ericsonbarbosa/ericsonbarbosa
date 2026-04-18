@@ -11,6 +11,7 @@ Experiência prática em provisionamento automatizado, configuração segura de 
 
 ### 🔹 Infrastructure as Code (IaC)
 - Terraform
+- Vagrant
 - Ansible
 - Provisionamento automatizado
 - Estrutura modular de infraestrutura
@@ -40,7 +41,8 @@ Experiência prática em provisionamento automatizado, configuração segura de 
 
 ## 📂 Projetos em Destaque
 
-### 📌 Ansible Windows Baseline
+### 📌 Baseline de provisionamento Windows com Ansible
+https://github.com/ericsonbarbosa/ansible-windows-baseline
 Automação ponta a ponta para provisionamento de estações Windows 11 utilizando:
 - Ansible
 - WinRM
