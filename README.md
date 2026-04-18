@@ -50,8 +50,6 @@ Automação ponta a ponta para provisionamento de estações Windows 11 utilizan
 - Ansible Vault
 - Estrutura organizada e segregação de variáveis
 
----
-
 ### 📌 Big Data Cluster com Hadoop, Hive e Trino
 https://github.com/ericsonbarbosa/vagrant-ansible-radoop-trino  
 Provisionamento e configuração de ambientes Big Data com Hadoop (HDFS/YARN) e Trino, utilizando Ansible (roles, inventário, tags) e Vagrant para garantir reprodutibilidade e versionamento da infraestrutura.  
@@ -60,6 +58,8 @@ Provisionamento e configuração de ambientes Big Data com Hadoop (HDFS/YARN) e 
 - Deploy automatizado de serviços
 - Monitoramento e alertas
 - Isolamento de rede
+
+---
 
 ## 🛠️ Stack Técnica
 
