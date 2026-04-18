@@ -42,8 +42,8 @@ Experiência prática em provisionamento automatizado, configuração segura de 
 ## 📂 Projetos em Destaque
 
 ### 📌 Baseline Windows com Ansible
-https://github.com/ericsonbarbosa/ansible-windows-baseline  
 Automação ponta a ponta para provisionamento de estações Windows 11 utilizando:  
+https://github.com/ericsonbarbosa/ansible-windows-baseline  
 - Ansible
 - WinRM
 - Chocolatey
@@ -51,8 +51,8 @@ Automação ponta a ponta para provisionamento de estações Windows 11 utilizan
 - Estrutura organizada e segregação de variáveis
 
 ### 📌 Big Data Cluster com Hadoop, Hive e Trino
-https://github.com/ericsonbarbosa/vagrant-ansible-radoop-trino  
 Provisionamento e configuração de ambientes Big Data com Hadoop (HDFS/YARN) e Trino, utilizando Ansible (roles, inventário, tags) e Vagrant para garantir reprodutibilidade e versionamento da infraestrutura.  
+https://github.com/ericsonbarbosa/vagrant-ansible-radoop-trino  
 
 - Implementação de cluster com múltiplos nós
 - Deploy automatizado de serviços
