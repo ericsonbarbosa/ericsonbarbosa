@@ -41,6 +41,30 @@ Experiência prática em provisionamento automatizado, configuração segura de 
 
 ## 📂 Projetos em Destaque
 
+### 📌 Big Data Cluster com SeaweedFS, Hive e Trino
+Provisionamento e configuração de ambientes Big Data com SeaweedFS (Master, Filer, S3 e Volume), Hive (PostgresSQL), Trino e Kubernetes CSI, utilizando Ansible (roles, inventário, tags) e Vagrant para garantir reprodutibilidade e versionamento da infraestrutura.  
+https://github.com/ericsonbarbosa/big_data-seaweed-hive-trino  
+
+- Ansible
+- Vagrant
+- VM: VirtualBox
+- SeaweedFS: Cluster Warehouse e PVC Kubernetes CSI (Master, Filer, S3 e Volume)
+- Hadoop: Mini hadoop compatibilizanda ao Hive
+- Hive: Metastore e Catálogos
+- PostgresSQL: Repoitório de metadados 
+- Trin: Motor de consulta distribuído
+
+### 📌 Big Data Cluster com Hadoop, Hive e Trino
+Provisionamento e configuração de ambientes Big Data com Hadoop (HDFS/YARN), Hive e Trino, utilizando Ansible (roles, inventário, tags) e Vagrant para garantir reprodutibilidade e versionamento da infraestrutura.  
+https://github.com/ericsonbarbosa/big_data-radoop-hive-trino  
+
+- Ansible
+- Vagrant
+- VM: VirtualBox
+- Hadoop: Cluster HDFS (NameNode/DataNode)
+- Hive: Metastore e Catálogos
+- Trin: Motor de consulta distribuído
+
 ### 📌 Baseline Windows com Ansible
 Automação ponta a ponta para provisionamento de estações Windows 11 utilizando:  
 https://github.com/ericsonbarbosa/ansible-windows-baseline  
@@ -49,15 +73,6 @@ https://github.com/ericsonbarbosa/ansible-windows-baseline
 - Chocolatey
 - Ansible Vault
 - Estrutura organizada e segregação de variáveis
-
-### 📌 Big Data Cluster com Hadoop, Hive e Trino
-Provisionamento e configuração de ambientes Big Data com Hadoop (HDFS/YARN) e Trino, utilizando Ansible (roles, inventário, tags) e Vagrant para garantir reprodutibilidade e versionamento da infraestrutura.  
-https://github.com/ericsonbarbosa/vagrant-ansible-radoop-trino  
-
-- Implementação de cluster com múltiplos nós
-- Deploy automatizado de serviços
-- Monitoramento e alertas
-- Isolamento de rede
 
 ---
 
